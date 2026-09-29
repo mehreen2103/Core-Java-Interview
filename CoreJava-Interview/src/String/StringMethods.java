@@ -18,7 +18,7 @@ public class StringMethods {
         System.out.println("Character at index 4 : " + str.charAt(4));
 
         // 5. substring()
-        System.out.println("Substring : " + str.substring(6));
+//        System.out.println("Substring : " + str.substring(6));
  
         // 6. replace()
         System.out.println("Replace : " + str.replace("Java", "World"));

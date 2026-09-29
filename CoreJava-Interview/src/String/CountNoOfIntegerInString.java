@@ -4,7 +4,7 @@ public class CountNoOfIntegerInString {
 	
 	public static void main(String[] args) {
 		
-		String n ="Mehree1121";
+		String n ="Mehreen1121";
 		
 		int count = 0;
 		
