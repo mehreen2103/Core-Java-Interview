@@ -4,7 +4,7 @@ public class CountOccuranceOfString {
 	
 	public static void main(String[] args) {
 		
-		String s = " Mehreen Ansari";
+		String s = " mehreen ansari";
 		
 		for (char c = 'a' ; c <= 'z'; c++) {
 			
@@ -12,8 +12,7 @@ public class CountOccuranceOfString {
 			
 			for (int i = 0; i < s.length(); i++) {
 				
-				if (s.charAt(i) == c) {
-					
+				if (s.charAt(i) == c) {	
 					count ++;
 				}
 			}
