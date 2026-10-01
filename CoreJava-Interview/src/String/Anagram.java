@@ -2,6 +2,12 @@ package String;
 
 import java.util.Arrays;
 
+
+/**
+ * Anagram 
+ * @author mehre
+ *
+ */
 public class Anagram {
 	
 	public static void main(String[] args) {

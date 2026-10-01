@@ -1,5 +1,12 @@
 package String;
 
+
+/**
+ * 
+ * Longest word in paragraph
+ * @author mehre
+ *
+ */
 public class LongestWordInParagraph {
 	
 	 public static void main(String[] args) {

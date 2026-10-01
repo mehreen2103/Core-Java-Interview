@@ -1,5 +1,13 @@
 package String;
 
+
+/**
+ * 
+ * Reverse at same place
+ * 
+ * @author mehre
+ *
+ */
 public class ReverseAtSamePlace {
 	
 	public static void main(String[] args) {
