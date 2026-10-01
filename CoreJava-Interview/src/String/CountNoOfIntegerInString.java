@@ -9,7 +9,7 @@ public class CountNoOfIntegerInString {
 		int count = 0;
 		
 		for (int i = 0; i < n.length(); i++) {
-			
+			 
 			if (Character.isDigit(n.charAt(i))) {
 				
 				count++;

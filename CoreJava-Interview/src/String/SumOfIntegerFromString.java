@@ -7,7 +7,7 @@ public class SumOfIntegerFromString {
 		String n = "mehreen1121";
 		
 		int sum = 0;
-		 
+		  
 		for (int i = 0; i < n.length(); i++) {
 			
 			if (Character.isDigit(n.charAt(i))) {
