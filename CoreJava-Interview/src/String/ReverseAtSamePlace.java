@@ -1,6 +1,4 @@
 package String;
-
-
 /**
  * 
  * Reverse at same place
