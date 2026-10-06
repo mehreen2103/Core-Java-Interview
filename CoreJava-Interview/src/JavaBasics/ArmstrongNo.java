@@ -3,7 +3,7 @@ package JavaBasics;
 public class ArmstrongNo {
 
 	public static void main(String[] args) {
-		
+
 		int num = 153;
 		int num2 = num;
 		int temp = 0;
@@ -20,5 +20,4 @@ public class ArmstrongNo {
 			System.out.println(num + " Is Not Armstrong Number");
 		}
 	}
-
 }
