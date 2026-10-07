@@ -10,13 +10,16 @@ public class ArmstrongNo {
 		int r = 0;
 
 		while (num2 > 0) {
+			
 			r = num2 % 10;
 			temp = temp + r * r * r;
 			num2 = num2 / 10;
 		}
 		if (temp == num) {
+			
 			System.out.println(num + " Is Armstrong Number");
 		} else {
+			
 			System.out.println(num + " Is Not Armstrong Number");
 		}
 	}

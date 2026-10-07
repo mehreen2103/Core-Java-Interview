@@ -18,6 +18,7 @@ public class Swapping {
 
 		System.out.println(a);
 		System.out.println(b);
+		
 	}
 
 }
