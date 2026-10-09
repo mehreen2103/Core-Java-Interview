@@ -1,5 +1,11 @@
 package JavaBasics.Pattern;
 
+
+/**
+ * @author mehre
+ * Diamond Program
+ *
+ */
 public class Diamond {
 	
 	public static void main(String[] args) {
