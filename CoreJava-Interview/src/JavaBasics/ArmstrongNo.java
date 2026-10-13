@@ -1,5 +1,12 @@
 package JavaBasics;
 
+
+
+/**
+ * @author mehre
+ *
+ *Armstrong Program
+ */
 public class ArmstrongNo {
 
 	public static void main(String[] args) {

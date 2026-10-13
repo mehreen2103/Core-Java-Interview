@@ -1,5 +1,12 @@
 package JavaBasics.Pattern;
 
+
+/**
+ * @author mehre
+ * 
+ * tRiangle Program
+ *
+ */
 public class Triangle {
 	
 	public static void main(String[] args) {
