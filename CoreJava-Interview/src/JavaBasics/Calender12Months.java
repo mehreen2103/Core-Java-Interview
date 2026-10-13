@@ -3,6 +3,12 @@ package JavaBasics;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+/**
+ * @author mehre
+ * Calender program 
+ * print all months name
+ *
+ */
 public class Calender12Months {
 	
 	 public static void main(String[] args) {
