@@ -1,0 +1,18 @@
+package OOP.MethodOverriding;
+
+public class Shape {
+
+	public String colour;
+
+	public String getColour() {
+		return colour;
+	}
+
+	public void setColour(String colour) {
+		this.colour = colour;
+	}
+	
+	public double area() {
+		return 0;
+	}
+}
