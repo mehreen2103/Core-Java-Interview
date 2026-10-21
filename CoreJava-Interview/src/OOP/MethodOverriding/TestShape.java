@@ -11,9 +11,13 @@ public class TestShape{
 
 		System.out.println(r.area());
 
+		System.out.println("---------------------------------------");
+		
 		Shape r1 = new Rectangle();
 		System.out.println(r1.area());
 
+		System.out.println("---------------------------------------");
+		
 		Rectangle r2 = (Rectangle) r1;
 
 		r2.setLength(34);
