@@ -4,6 +4,8 @@ package OOP.MethodOverriding;
  * @author mehre
  * 
  * example of methodOverriding
+ * this is parent class
+ * 
  *
  */
 public class Shape {
