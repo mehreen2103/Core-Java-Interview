@@ -1,5 +1,11 @@
 package OOP.MethodOverriding;
 
+/**
+ * @author mehre
+ * 
+ * example of methodOverriding
+ *
+ */
 public class Shape {
 
 	public String colour;

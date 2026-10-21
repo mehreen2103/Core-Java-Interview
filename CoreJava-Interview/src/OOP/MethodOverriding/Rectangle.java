@@ -1,5 +1,11 @@
 package OOP.MethodOverriding;
 
+/**
+ * @author mehre
+ * 
+ * example oof methodoverriding
+ *
+ */
 public class Rectangle extends Shape{
 	
 	public int length;
