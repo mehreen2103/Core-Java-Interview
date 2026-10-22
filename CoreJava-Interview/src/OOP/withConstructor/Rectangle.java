@@ -1,5 +1,12 @@
 package OOP.withConstructor;
 
+/**
+ * @author mehre
+ * 
+ * example of array with constructor 
+ * and this is child class
+ *
+ */
 public class Rectangle extends Shape {
 	
 	public int length;

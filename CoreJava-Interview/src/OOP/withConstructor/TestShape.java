@@ -1,5 +1,12 @@
 package OOP.withConstructor;
 
+/**
+ * @author mehre
+ * 
+ * shape [] example of with constructor 
+ * and this is test  class
+ *
+ */
 public class TestShape {
 	
 	public static void main(String[] args) {
