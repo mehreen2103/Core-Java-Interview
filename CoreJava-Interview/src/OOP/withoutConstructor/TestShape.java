@@ -1,5 +1,13 @@
 package OOP.withoutConstructor;
 
+/**
+ * @author mehre
+ * 
+ * example of 
+ * shape[] with constructor
+ * and this is test class
+ *
+ */
 public class TestShape {
 	
 	public static void main(String[] args) {
@@ -10,7 +18,7 @@ public class TestShape {
 		
 		Circle c = (Circle) s[0];
 		
-		c.setRadius(122);
+		c.setRadius(10);
 		
 		for (int i = 0; i < s.length; i++) {
 			System.out.println(s[i].area());

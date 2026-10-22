@@ -1,5 +1,11 @@
 package OOP.withoutConstructor;
-
+/**
+ * @author mehreen
+ * 
+ * Example of shape[] without constructor
+ * and this is child class
+ *
+ */
 public class Circle extends Shape  {
 	
 	public static final double PI = 3.14;
