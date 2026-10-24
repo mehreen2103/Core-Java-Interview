@@ -3,6 +3,7 @@ package OOP.withoutConstructor;
  * @author mehreen
  * 
  * Example of shape[] without constructor
+ * 
  * and this is child class
  *
  */
