@@ -1,7 +1,7 @@
 package OOP.encapsulation;
 
 public class Account {
-	
+
 	public double balance = 0;
 
 	public double getBalance() {
@@ -11,23 +11,31 @@ public class Account {
 	public void setBalance(double balance) {
 		this.balance = balance;
 	}
-	
+
 	public void deposit(double amount) {
-		
+
 		balance = balance + amount;
 		System.out.println("Balance after deposit = " + balance);
 	}
-	
+
 	public void withdrawl(double amount) {
-		
+
 		if (balance < amount) {
-			
+
 			System.out.println("Insufficient found");
-		}else {
-			
+		} else {
+
 			balance = balance - amount;
 			System.out.println("Balance after withdrawl = " + balance);
 		}
+	}
+
+	public static void main(String[] args) {
+
+		Account a = new Account();
+
+		a.deposit(2000);
+		a.withdrawl(1000);
 	}
 
 }
