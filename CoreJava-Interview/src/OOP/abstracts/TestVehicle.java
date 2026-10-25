@@ -8,5 +8,7 @@ public class TestVehicle {
 		
 		v.start();
 		v.stop();
+		
 	}
+	
 }
