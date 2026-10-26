@@ -1,5 +1,11 @@
  package OOP;
 
+/**
+ * @author mehre
+ * 
+ * Example of abstract class
+ *
+ */
 public final class Immutable {
 	
 	private final String name;

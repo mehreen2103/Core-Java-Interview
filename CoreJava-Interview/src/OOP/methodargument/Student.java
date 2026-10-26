@@ -1,5 +1,11 @@
 package OOP.methodargument;
 
+/**
+ * @author mehre
+ * 
+ * Example of Method argument
+ *
+ */
 public class Student {
 	
 	public void display(String name, int age) {
