@@ -1,5 +1,4 @@
 package OOP.abstracts;
-
 /**
  * @author mehre
  * 

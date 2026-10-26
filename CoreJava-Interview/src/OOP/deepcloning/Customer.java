@@ -15,7 +15,7 @@ public class Customer implements Cloneable{
 	protected Object clone() throws CloneNotSupportedException {
 		
 		Customer c = (Customer) super.clone();
-		c.no = (Account)no.clone();   //deep cloning
+		c.no = (Account)no;   //deep cloning
 		return c;
 	}
 

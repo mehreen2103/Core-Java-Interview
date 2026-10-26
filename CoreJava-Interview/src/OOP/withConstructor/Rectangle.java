@@ -3,20 +3,20 @@ package OOP.withConstructor;
 /**
  * @author mehre
  * 
- * example of array with constructor 
- * and this is child class
+ * example of array with 
+ * constructor and this is child class
  *
  */
 public class Rectangle extends Shape {
-	
+
 	public int length;
 	public int width;
-	
+
 	public Rectangle(int length, int width) {
 		this.length = length;
 		this.width = width;
 	}
-	
+
 	@Override
 	public double area() {
 		return length * width;

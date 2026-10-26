@@ -2,8 +2,8 @@ package OOP.withConstructor;
 
 /**
  * @author mehre
- * example of shape array wirh constructor
- *  and this is child class
+ * example of shape array with constructor
+ * and this is child class
  *
  */
 public class Circle extends Shape{
