@@ -11,7 +11,7 @@ public class TestAccount {
         c1.name = "Mehreen";
         c1.account = a;
 
-        Customer c2 = (Customer) c1.clone();
+        Customer c2 = (Customer) c1;
 
         c2.name = "Riya";
         c2.account.balance = 200;
