@@ -4,18 +4,18 @@ public class Customer implements Cloneable{
 	
 	public String name;
 	
-	public Account no;
+	public Account account;
 	
 	public Customer(String name) {
 		this.name = name;
-		no = new Account(100);
+		account = new Account(100);
 	}
 	
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
 		
 		Customer c = (Customer) super.clone();
-		c.no = (Account)no;   //deep cloning
+		c.account = (Account)account;   //deep cloning
 		return c;
 	}
 
