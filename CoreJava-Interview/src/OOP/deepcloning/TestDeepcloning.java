@@ -1,5 +1,11 @@
 package OOP.deepcloning;
 
+/**
+ * @author mehre
+ * 
+ * Example of deep cloning
+ *
+ */
 public class TestDeepcloning {
 	
 	public static void main(String[] args) throws CloneNotSupportedException  {

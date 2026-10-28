@@ -1,5 +1,11 @@
 package OOP.deepcloning;
 
+/**
+ * @author mehre
+ * 
+ * Example of deep cloning
+ *
+ */
 public class Customer implements Cloneable{
 	
 	public String name;
@@ -15,7 +21,7 @@ public class Customer implements Cloneable{
 	protected Object clone() throws CloneNotSupportedException {
 		
 		Customer c = (Customer) super.clone();
-		c.account = (Account)account;   //deep cloning
+		c.account = (Account)account.clone();   //deep cloning
 		return c;
 	}
 

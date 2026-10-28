@@ -1,5 +1,11 @@
 package OOP.deepcloning;
 
+/**
+ * @author mehre
+ * 
+ * Example of deep cloning
+ *
+ */
 public class Account implements Cloneable{
 
 	public int balance;
