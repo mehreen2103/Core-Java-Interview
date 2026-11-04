@@ -10,6 +10,7 @@ public class TestNumberFormatException {
 			System.out.println(Integer.parseInt(str));
 			
 		} catch (NumberFormatException e) {
+			e.printStackTrace();
 			System.out.println(e.getMessage());
 		}
 	}

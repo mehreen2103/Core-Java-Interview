@@ -10,6 +10,7 @@ public class TestStringIndexOutOfBoundException {
 			System.out.println(s.charAt(3));
 			
 		} catch (StringIndexOutOfBoundsException e) {
+			e.printStackTrace();
 			System.out.println(e.getMessage());
 		}
 	}

@@ -10,10 +10,10 @@ public class TestArithmeticException {
 			System.out.println(i/0);
 			
 		} catch (Exception e) {
-			System.out.println(e + " = 0 se divide karne ka valid mathematical result nahi hota, isliye exception aati hai");
+			System.out.println(e); // 0 se divide karne ka valid mathematical result nahi hota, isliye exception aati hai
 		
 		}finally {
-			System.out.println("There is exception or not i will run anyway");
+			System.out.println("Always Exceute");
 		}
 	}
 

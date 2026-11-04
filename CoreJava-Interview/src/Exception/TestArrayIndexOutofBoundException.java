@@ -11,7 +11,7 @@ public class TestArrayIndexOutofBoundException {
 			
 		} catch (ArrayIndexOutOfBoundsException e) {
 			e.printStackTrace();
-			System.out.println("Index se jada nahi milega nahi to exception aa jaigi bhai ");
+			System.out.println("Index se jada nahi milega nahi to exception aa jayegi ");
 		}
 	
 	}
