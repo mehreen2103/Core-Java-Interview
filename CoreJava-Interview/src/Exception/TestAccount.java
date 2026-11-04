@@ -6,13 +6,15 @@ public class TestAccount {
 		
 		Account a = new Account();
 		
-		a.setBalance(1000000);
+		a.setBalance(10000);
 		a.deposit(50);
 		
 		try {
-			a.withdrawl(100060);
+			a.withdrawl(10060);
 			
 		} catch (InsufficientBalance e) {
+			
+			e.printStackTrace();
 			System.out.println(e);
 		}
 	}
