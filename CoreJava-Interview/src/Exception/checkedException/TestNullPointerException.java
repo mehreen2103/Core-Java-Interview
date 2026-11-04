@@ -1,0 +1,19 @@
+package Exception.checkedException;
+
+public class TestNullPointerException {
+	
+	public static void main(String[] args) {
+		
+		String s = null;
+		
+		try {
+			System.out.println(s.length());
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Object ki value null hai length nhi niklegi");
+		}
+		
+	}
+
+}
