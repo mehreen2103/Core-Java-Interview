@@ -8,6 +8,7 @@ public class TryCatchInsideFinally {
 			System.out.println("try");
 			
 		} catch (Exception e) {
+			
 			e.printStackTrace();
 			System.out.println("catch");
 			
@@ -30,3 +31,6 @@ public class TryCatchInsideFinally {
 	}
 
 }
+//finally block ke andar bhi try-catch likh sakte hain.
+//Agar finally ke andar exception aaye aur usko wahi handle kar diya jaye, to program normally continue karta hai.
+//Agar finally ke andar exception handle na ho, to program terminate ho sakta hai.

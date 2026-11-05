@@ -1,3 +1,4 @@
 eclipse.preferences.version=1
+encoding//src/Exception/SystemExit.java=UTF-8
 encoding//src/Exception/checkedException/CheckedException.java=UTF-8
 encoding//src/Exception/uncheckedexception/UncheckedException.java=UTF-8
