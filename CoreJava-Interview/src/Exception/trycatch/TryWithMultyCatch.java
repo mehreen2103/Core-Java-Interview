@@ -8,7 +8,7 @@ public class TryWithMultyCatch {
 		String s = "abc";
 
 		try {
-			int c = a / 0;
+			int c = a / 0 ;
 
 			System.out.println(s.length());
 			System.out.println("Division = " + c);

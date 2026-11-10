@@ -1,8 +1,7 @@
 package Exception.checkedException;
 /**
  * son() Exception throw karta hai → 
- * mom() handle nahi karti aur 
- * dad() ko bhej deti hai → 
+ * mom() handle nahi karti aur  dad() ko bhej deti hai → 
  * dad() handle nahi karta aur main() ko bhej deta hai
  * → main() bhi handle nahi karta aur JVM ko bhej deta hai. 
  * JVM exception ka stack trace print karke program terminate kar deti hai.
