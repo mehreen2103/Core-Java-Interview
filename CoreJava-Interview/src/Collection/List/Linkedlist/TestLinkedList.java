@@ -1,0 +1,28 @@
+package Collection.List.Linkedlist;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class TestLinkedList {
+	
+	public static void main(String[] args) {
+		
+		LinkedList<String> list = new LinkedList<String>();
+		
+		list.add("1");
+		list.add("2");
+		list.add("3");
+		
+		Iterator it = list.iterator();
+		
+		while (it.hasNext()) {
+			String s = (String) it.next();
+			System.out.println(s);
+			
+		}
+		
+		System.out.println(list.indexOf("3"));
+		System.out.println(list.get(1));
+	}
+
+}
