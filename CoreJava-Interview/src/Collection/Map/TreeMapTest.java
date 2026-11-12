@@ -9,11 +9,11 @@ public class TreeMapTest {
 		TreeMap<Integer, String> map = new TreeMap<>();
 
 		// Add Elements
-		map.put(1, "Kapil");
-		map.put(2, "Raj");
-		map.put(3, "Prashant");
-		map.put(4, "Deepak");
-		map.put(5, "Aman");
+		map.put(1, "A");
+		map.put(2, "B");
+		map.put(3, "C");
+		map.put(4, "D");
+		map.put(5, "E");
 
 		System.out.println("TreeMap = " + map);
 
