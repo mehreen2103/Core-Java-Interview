@@ -1,46 +1,33 @@
 package Collection.List.Linkedlist;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LinkedListMethods {
 
 	public static void main(String[] args) {
 
-		LinkedList<String> s = new LinkedList<String>();
+		LinkedList list = new LinkedList();
 
-		s.add("Mehreen");
-		s.add("Noshi");
-		s.add("inaya");
-		s.add("alizeh");
+		list.add("Mehreen");
+		list.add("Noshi");
+		list.add("Inaya");
+		list.add("bilal");
+		list.add("fatimah");
 
-		System.out.println(s);
+		System.out.println("list: " + list);
 
-		s.addFirst("Alizeh");
-		s.addLast("Bilal");
-
-		System.out.println(s);
-		System.out.println("------------------------");
-		System.out.println(s.get(2));
-		System.out.println(s.getFirst());
-		System.out.println(s.getLast());
-		System.out.println("-----------------------");
-		System.out.println(s.poll()); // First element remove + return
-		System.out.println("-----------------------");
-		System.out.println(s);
-		System.out.println("First element : " + s.peek()); // First element dekhta hai
-
-		System.out.println("------------------------");
-		s.offer("Java"); // offer() adds an element at the end of the LinkedList and returns true if the
-							// element is successfully adde
-		s.offer("Python");
-		s.offer("C");
-		s.offerFirst("C++"); // start mein add
-		s.offerLast("Jenkins"); /// last m add
-		System.out.println(s);
-
-		/*
-		 * list.removeFirst(); list.removeLast();
-		 */
+		Iterator it = list.iterator();
+		
+		while (it.hasNext()) {
+			System.out.println(it.next());
+		}
+		System.out.println("index of : "+list.indexOf("Mehreen"));
+		System.out.println("get: " + list.get(4));
+		System.out.println("set: " +list.set(1, "Ansari"));
+		System.out.println("getfirst: " + list.getFirst());
+		System.out.println("getlast: " +list.getLast());
+		System.out.println("list: " + list);
 	}
 
 }
