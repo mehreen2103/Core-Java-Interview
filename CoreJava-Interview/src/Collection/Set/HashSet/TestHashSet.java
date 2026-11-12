@@ -11,8 +11,8 @@ public class TestHashSet {
 		
 		s.add("34");
 		s.add("67");
-		s.add("null");
-		s.add("null");
+		s.add(null);
+		s.add(null);
 		
 		Iterator<String> it = s.iterator();
 		

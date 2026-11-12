@@ -19,6 +19,9 @@ public class SetMethods {
 
 		System.out.println(s);
 
+		System.out.println("-----------------------");
+		
+//		SetIterator
 		HashSet hs = new HashSet();
 
 		hs.add("zero");

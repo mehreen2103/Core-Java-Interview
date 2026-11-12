@@ -11,14 +11,16 @@ public class MapIterator {
 		m.put(1, "one");
 		m.put(2, "two");
 		m.put(3, "three");
-		m.put(40000, "fourh");
+		m.put(4000, "fourh");
 		m.put(4, null);
-		m.put(4, "kpnull");
+		m.put(4, "mnull");
+		
 		for (Object o : m.entrySet()) {
 
 			System.out.println(o);
 
 		}
+		System.out.println("-----------------------");
 		// System.out.println(m);
 
 		for (Object o : m.values()) {
@@ -27,6 +29,8 @@ public class MapIterator {
 
 			// System.out.println(m);
 		}
+		
+		System.out.println("-----------------------");
 		for (Object o : m.keySet()) {
 
 			System.out.println(o);

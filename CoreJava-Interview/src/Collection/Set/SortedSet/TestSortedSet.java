@@ -14,9 +14,6 @@ public class TestSortedSet {
 		s.add(14);
 		s.add(15);
 		s.add(16);
-		s.add(18);
-		s.add(17);
-		s.add(17);
 
 		System.out.println(s); // Set ka pura data
 		System.out.println(s.first());

@@ -31,7 +31,7 @@ public class MapMethods {
 		System.out.println("Contains Key 102 = " + map.containsKey(102));
 
 		// containsValue()
-		System.out.println("Contains Value Raj = " + map.containsValue("Raj"));
+		System.out.println("Contains Value mehreen = " + map.containsValue("Mehreen"));
 
 		// keySet()
 		System.out.println("Keys = " + map.keySet());
@@ -43,20 +43,20 @@ public class MapMethods {
 		System.out.println("Entries = " + map.entrySet());
 
 		// replace()
-		map.replace(105, "Anaya");
-		System.out.println("After Replace = " + map);
+//		map.replace(105, "Anaya");
+//		System.out.println("After Replace = " + map);
 
 		// remove()
 		map.remove(104);
 		System.out.println("After Remove = " + map);
 
 		// putIfAbsent()
-		map.putIfAbsent(106, "Ankit");
-		System.out.println("After putIfAbsent = " + map);
+//		map.putIfAbsent(106, "Anaya");
+//		System.out.println("After putIfAbsent = " + map);
 
 		// remove(key, value)
-		map.remove(102, "Noshi");
-		System.out.println("After remove(key,value) = " + map);
+//		map.remove(102, "Noshi");
+//		System.out.println("After remove(key,value) = " + map);
 
 		// clear()
 		map.clear();
