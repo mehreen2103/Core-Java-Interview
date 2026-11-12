@@ -16,13 +16,14 @@ public class TestLinkedList {
 		Iterator it = list.iterator();
 		
 		while (it.hasNext()) {
+			
 			String s = (String) it.next();
 			System.out.println(s);
 			
 		}
 		
-		System.out.println(list.indexOf("3"));
-		System.out.println(list.get(1));
+		System.out.println("index of: " + list.indexOf("3"));
+		System.out.println("get: " + list.get(1));
 	}
 
 }

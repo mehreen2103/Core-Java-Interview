@@ -22,7 +22,7 @@ public class LinkedListMethods {
 		while (it.hasNext()) {
 			System.out.println(it.next());
 		}
-		System.out.println("index of : "+list.indexOf("Mehreen"));
+		System.out.println("index of :  " + list.indexOf("Mehreen"));
 		System.out.println("get: " + list.get(4));
 		System.out.println("set: " +list.set(1, "Ansari"));
 		System.out.println("getfirst: " + list.getFirst());
