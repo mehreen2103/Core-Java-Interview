@@ -7,37 +7,62 @@ public class MapMethods {
 
 	public static void main(String[] args) {
 
-		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+		Map<Integer, String> map = new HashMap<Integer, String>();
 
-		map.put(1, 10);
-		map.put(2, 20);
-		map.put(null, null);
-		map.put(3, null);
+		// put()
+		map.put(101, "Mehreen");
+		map.put(102, "Noshi");
+		map.put(103, "Inaya");
+		map.put(104, "Rauzah");
+		map.put(105, "Fatimah");
 
-		// null values store karta hai
-		// sorting maintain nahi hai
+		System.out.println("Map = " + map);
 
-		System.out.println(map.get(1));
+		// size()
+		System.out.println("Size = " + map.size());
 
-		System.out.println(map.containsKey(3));
+		// isEmpty()
+		System.out.println("Is Empty = " + map.isEmpty());
 
-		System.out.println(map.containsValue("Two"));
+		// get()
+		System.out.println("Get 103 = " + map.get(103));
 
-		System.out.println(map);
+		// containsKey()
+		System.out.println("Contains Key 102 = " + map.containsKey(102));
 
-		// Map ko iterate karna
-		for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+		// containsValue()
+		System.out.println("Contains Value Raj = " + map.containsValue("Raj"));
 
-			System.out.println("Key = " + entry.getKey());
-			System.out.println("Value = " + entry.getValue());
-		}
+		// keySet()
+		System.out.println("Keys = " + map.keySet());
 
-		// for (Integer key : map.keySet()) {
-		// System.out.println(key);
-		// }
+		// values()
+		System.out.println("Values = " + map.values());
 
+		// entrySet()
+		System.out.println("Entries = " + map.entrySet());
+
+		// replace()
+		map.replace(105, "Anaya");
+		System.out.println("After Replace = " + map);
+
+		// remove()
+		map.remove(104);
+		System.out.println("After Remove = " + map);
+
+		// putIfAbsent()
+		map.putIfAbsent(106, "Ankit");
+		System.out.println("After putIfAbsent = " + map);
+
+		// remove(key, value)
+		map.remove(102, "Noshi");
+		System.out.println("After remove(key,value) = " + map);
+
+		// clear()
 		map.clear();
+		System.out.println("After Clear = " + map);
 
-		System.out.println(map);
-	}
-}
+		// isEmpty()
+		System.out.println("Is Empty = " + map.isEmpty());
+
+	}}
