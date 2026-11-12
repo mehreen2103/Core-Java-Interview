@@ -1,5 +1,4 @@
-package Collection.List;
-
+package Collection.List; 
 import java.util.ArrayList;
 import java.util.List;
 
@@ -26,9 +25,9 @@ public class TestList {
 		System.out.println(list.contains('a'));
 		System.out.println(list.addAll(list2));
 		System.out.println(list.containsAll(list2));
-		System.out.println(list.remove(2));
+		System.out.println("remove: " +list.remove(2));
 		System.out.println(list);
-		System.out.println(list.set(1, 'A'));
+		System.out.println("set: " +list.set(1, 'A'));
 		System.out.println(list);
 
 		list.clear();
