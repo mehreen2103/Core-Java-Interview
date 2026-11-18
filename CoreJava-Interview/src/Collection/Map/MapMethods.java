@@ -1,5 +1,4 @@
 package Collection.Map;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -10,11 +9,11 @@ public class MapMethods {
 		Map<Integer, String> map = new HashMap<Integer, String>();
 
 		// put()
-		map.put(101, "Mehreen");
-		map.put(102, "Noshi");
-		map.put(103, "Inaya");
-		map.put(104, "Rauzah");
-		map.put(105, "Fatimah");
+		map.put(101, "A");
+		map.put(102, "B");
+		map.put(103, "C");
+		map.put(104, "D");
+		map.put(105, "E");
 
 		System.out.println("Map = " + map);
 
@@ -31,7 +30,7 @@ public class MapMethods {
 		System.out.println("Contains Key 102 = " + map.containsKey(102));
 
 		// containsValue()
-		System.out.println("Contains Value mehreen = " + map.containsValue("Mehreen"));
+		System.out.println("Contains Value A = " + map.containsValue("A"));
 
 		// keySet()
 		System.out.println("Keys = " + map.keySet());
@@ -42,21 +41,9 @@ public class MapMethods {
 		// entrySet()
 		System.out.println("Entries = " + map.entrySet());
 
-		// replace()
-//		map.replace(105, "Anaya");
-//		System.out.println("After Replace = " + map);
-
 		// remove()
 		map.remove(104);
 		System.out.println("After Remove = " + map);
-
-		// putIfAbsent()
-//		map.putIfAbsent(106, "Anaya");
-//		System.out.println("After putIfAbsent = " + map);
-
-		// remove(key, value)
-//		map.remove(102, "Noshi");
-//		System.out.println("After remove(key,value) = " + map);
 
 		// clear()
 		map.clear();
@@ -65,4 +52,5 @@ public class MapMethods {
 		// isEmpty()
 		System.out.println("Is Empty = " + map.isEmpty());
 
-	}}
+	}
+}

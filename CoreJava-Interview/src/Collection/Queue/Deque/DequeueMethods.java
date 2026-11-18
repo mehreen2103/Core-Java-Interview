@@ -25,6 +25,6 @@ public class DequeueMethods {
 	}
 
 }
-//offerFirst() → Queue ke starting me element add karta hai.
+//offerFirst()→ Queue ke starting me element add karta hai.
 //offerLast() → Queue ke end me element add karta hai.
 //pollFirst() → Queue ka pehla element remove karke return karta hai.
