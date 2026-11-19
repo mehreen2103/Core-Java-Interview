@@ -14,6 +14,7 @@ public class TestQueue {
 		q.add("C");
 		
 		System.out.println(q);
+		System.out.println(q.size());
 		System.out.println(q.offer("D"));
 		System.out.println(q);
 	}

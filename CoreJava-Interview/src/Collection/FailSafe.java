@@ -9,24 +9,23 @@ public class FailSafe {
 
 		Vector v = new Vector();
 
-		v.addElement(1);
-		v.addElement(2);
-		v.addElement(3);
-		v.addElement(4);
+		v.add(1);
+		v.add(2);
+		v.add(3);
+		v.add(4);
 
 		System.out.println(v);
-
+		
 		Enumeration e = v.elements();
 
 		v.addElement(5);
 
 		while (e.hasMoreElements()) {
-			
-			// v.addElement(5); //infinite
 			System.out.println(e.nextElement());
-
-			// v.addElement(5); //infinite
 		}
 	}
 
 }
+
+//hasMoreElements() check karta hai ki next element hai ya nahi.
+//nextElement() next element return karta hai.

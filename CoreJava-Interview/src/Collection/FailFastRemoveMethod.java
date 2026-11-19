@@ -2,33 +2,36 @@ package Collection;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 
 public class FailFastRemoveMethod {
 
 	public static void main(String[] args) {
 
-		ArrayList list = new ArrayList();
+		List list = new ArrayList();
 
-		list.add("one");
-		list.add("two");
-		list.add("three");
+		list.add(1);
+		list.add(2);
+		list.add(3);
 
 		System.out.println(list);
 
 		Iterator it = list.iterator();
 
 		while (it.hasNext()) {
-			// it.remove(); //exception illegalstate
+
+			it.remove(); // exception illegalstate
+
 			System.out.println(it.next());
-			/*
-			 * String s = (String) it.next();
-			 * 
-			 * if (s.equals("two")) { it.remove();
-			 * 
-			 * 
-			 * }
-			 */
-			it.remove();
+
+			Integer s = (Integer) it.next();
+
+			if (s.equals(2)) {
+				it.remove();
+
+			}
+			it.remove();  // illegalstatexception
+			
 		}
 
 		System.out.println(list);

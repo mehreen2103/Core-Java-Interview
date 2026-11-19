@@ -8,6 +8,7 @@ public class Employee {
 	private int salary;
 
 	public Employee(int id, String name, int salary) {
+		
 		this.id = id;
 		this.name = name;
 		this.salary = salary;
@@ -38,6 +39,7 @@ public class Employee {
 
 	@Override
 	public int hashCode() {
+		
 		System.out.println("in hascode");
 		String str = id + name + salary;
 		return str.hashCode();
@@ -46,6 +48,7 @@ public class Employee {
 
 	@Override
 	public String toString() {
+		
 		String str = id + " " + name + " " + salary;
 		return str;
 	}

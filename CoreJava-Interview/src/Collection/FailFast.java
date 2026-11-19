@@ -12,7 +12,7 @@ public class FailFast {
 		list.add("one");
 		list.add("two");
 		list.add("three");
-
+ 
 		System.out.println(list); // execute
 
 		Iterator it = list.iterator();
@@ -28,3 +28,6 @@ public class FailFast {
 	}
 
 }
+
+// Isliye ise Fail-Fast kehte hain — problem detect hote hi Iterator turant
+// fail/stop ho jata hai.

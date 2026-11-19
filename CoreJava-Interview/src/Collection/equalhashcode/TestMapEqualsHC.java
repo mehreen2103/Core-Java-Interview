@@ -7,10 +7,10 @@ public class TestMapEqualsHC {
 
 	public static void main(String[] args) {
 
-		Employee e1 = new Employee(1, "Neeraj", 10000);
-		Employee e2 = new Employee(1, "Neeraj", 10000);
-		Employee e3 = new Employee(1, "Neeraj", 10400);
-		Employee e4 = new Employee(1, "Neeraj", 10400);
+		Employee e1 = new Employee(1, "Mehreen", 10000);
+		Employee e2 = new Employee(1, "Mehreen", 10000);
+		Employee e3 = new Employee(1, "Mehreen", 10400);
+		Employee e4 = new Employee(1, "Mehreen", 10400);
 
 		Map m = new HashMap();
 
