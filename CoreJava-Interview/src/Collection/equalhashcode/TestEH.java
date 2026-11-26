@@ -71,3 +71,7 @@ public class TestEH {
 	}
 
 }
+//
+//HashSet-> Duplicate object allow nahi karta.
+//ArrrayLIST-> Duplicate Object allow karta hai.
+//HashMap-> Duplicate keys allow nahi karta , but duplicate value allow karta hai.
