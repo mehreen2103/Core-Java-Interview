@@ -54,3 +54,6 @@ public class Employee {
 		return str;
 	}
 }
+//
+//Hashcode -> obj ki value generate karti hai.
+//Equals -> do obj equal hai ya nhi check karti hai
