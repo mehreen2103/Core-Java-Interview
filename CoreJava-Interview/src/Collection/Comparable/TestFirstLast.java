@@ -11,7 +11,6 @@ public class TestFirstLast {
 		l.add(new FirstLast("Mehreen", "Ansari"));
 		l.add(new FirstLast("Maha", "Khan"));
 		l.add(new FirstLast("Noshi", "Ansari"));
-
 		l.add(new FirstLast("Noshi", "Ansari"));
 		l.add(new FirstLast("Sana", "Sheikh"));
 		

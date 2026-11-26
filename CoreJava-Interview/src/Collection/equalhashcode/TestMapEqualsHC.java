@@ -19,7 +19,7 @@ public class TestMapEqualsHC {
 		m.put(e3, "Employee3");
 		m.put(e4, "Employee4");
 
-		System.out.println(m);
+		System.out.println("map: " + m);
 		System.out.println(m.size());
 	}
 

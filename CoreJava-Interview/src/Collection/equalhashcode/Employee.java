@@ -1,6 +1,5 @@
 package Collection.equalhashcode;
 
-
 public class Employee {
 
 	private int id;
@@ -37,6 +36,7 @@ public class Employee {
 
 	}
 
+	
 	@Override
 	public int hashCode() {
 		
@@ -46,6 +46,7 @@ public class Employee {
 		
 	}
 
+	
 	@Override
 	public String toString() {
 		
