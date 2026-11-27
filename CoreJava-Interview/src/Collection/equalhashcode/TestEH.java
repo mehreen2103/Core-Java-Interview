@@ -1,4 +1,5 @@
 package Collection.equalhashcode;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -7,7 +8,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class TestEH {
-	
+
 	public static void main(String[] args) {
 
 		Employee e1 = new Employee(1, "abc", 100);
@@ -17,7 +18,7 @@ public class TestEH {
 		System.out.println(e1.equals(e2));
 		System.out.println();
 
-		System.out.println("equals:"   + e1.equals("abc"));
+		System.out.println("equals:" + e1.equals("abc"));
 		System.out.println();
 
 		System.out.println(e1.hashCode());
@@ -32,7 +33,7 @@ public class TestEH {
 
 		set.add(e2);
 
-		System.out.println(set.size());
+		System.out.println("size: " + set.size());
 
 		System.out.println("set: " + set);
 
@@ -59,12 +60,12 @@ public class TestEH {
 
 		System.out.println("map: " + map);
 		System.out.println("size: " + map.size());
-		
+
 		System.out.println("---------String---------");
-		
+
 		String s1 = "Java";
 		String s2 = "Java";
-		
+
 		System.out.println(s1.equals(s2));
 		System.out.println(s1.hashCode());
 		System.out.println(s2.hashCode());

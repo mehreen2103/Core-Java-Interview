@@ -1,5 +1,4 @@
 package Collection.Comparable;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -16,7 +15,7 @@ public class TestEmployeeComparable {
 		list.add(new Employee(4, "Inaya", "BBA"));
 
 		Collections.sort(list);
-		// Collections.shuffle(list);
+//		 Collections.shuffle(list);
 
 		for (Object o : list) {
 

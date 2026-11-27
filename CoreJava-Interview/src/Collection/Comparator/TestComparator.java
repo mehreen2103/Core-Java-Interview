@@ -16,7 +16,7 @@ public class TestComparator {
 		list.add(new Employee(4, "Maha", 5000));
 
 		System.out.println("---------By Name-------------");
-		
+
 		EmployeeShortByName byName = new EmployeeShortByName();
 
 		Collections.sort(list, byName);
@@ -25,7 +25,7 @@ public class TestComparator {
 			System.out.println(o);
 		}
 
-		System.out.println("==========By Id Name Slary==========");
+		System.out.println("==========By Id Name Salary==========");
 
 		EmployeeShortByIdNameSalary byINS = new EmployeeShortByIdNameSalary();
 
