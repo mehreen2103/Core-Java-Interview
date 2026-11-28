@@ -24,3 +24,12 @@ public class TestContestant {
 				});
 	}
 }
+
+//stream() => Collection ko Stream me convert karta hai.
+//filter() =>	Condition ke according elements select karta hai.
+//collect() =>	Stream ka result kisi collection me convert karta hai.
+//Collectors.toList() =>	Stream ko List me convert karta hai.
+//Collectors.collectingAndThen() =>	Collection banane ke baad us par extra operation perform karta hai.
+//Collections.shuffle() =>	List ke elements ko random order me arrange karta hai.
+//limit(2) =>	Sirf pehle 2 elements leta hai.
+//forEach() =>	Har element par given action perform karta hai.

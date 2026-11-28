@@ -17,3 +17,7 @@ public class StreamToArray {
 	}
 
 }
+
+//Stream.of()	Values se Stream create karta hai.
+//toArray()	Stream ko Array me convert karta hai.
+//arr.length	Array me total elements batata hai.

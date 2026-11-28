@@ -15,3 +15,8 @@ public class ArrayToStream {
 	}
 
 }
+
+//Arrays.stream(array)=>	Array ko Stream me convert karta hai.
+//sorted()=>	Stream ke elements ko ascending/alphabetical order me sort karta hai.
+//forEach()=>	Har element par given action perform karta hai.
+//System.out::println=>	Har element ko print karne ka method reference hai.
