@@ -41,3 +41,14 @@ public class TestEmployee {
 	}
 
 }
+//
+//| `stream()` | Collection ko Stream me convert karta hai. |
+//| `map()` | Har object ko kisi aur value me convert karta hai. |
+//| `distinct()` | Duplicate elements remove karta hai. |
+//| `sorted()` | Elements ko ascending order me sort karta hai. |
+//| `sorted(Comparator.reverseOrder())` | Elements ko descending order me sort karta hai. |
+//| `filter()` | Condition ke according elements select karta hai. |
+//| `skip(n)` | Shuru ke `n` elements ko skip karta hai. |
+//| `limit(n)` | Sirf pehle `n` elements leta hai. |
+//| `forEach()` | Har element par action perform karta hai. |
+//| `Comparator.reverseOrder()` | Reverse (descending) sorting ke liye comparator deta hai. |

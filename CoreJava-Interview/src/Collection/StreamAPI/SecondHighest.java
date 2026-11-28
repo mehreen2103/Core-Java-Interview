@@ -14,3 +14,7 @@ public class SecondHighest {
 	}
 
 }
+
+//boxed() =>	Primitive int ko Integer object me convert karta hai.
+//distinct() =>	Duplicate elements remove karta hai.
+//findFirst() =>	Stream ka pehla element return karta hai

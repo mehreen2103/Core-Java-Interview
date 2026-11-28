@@ -31,5 +31,5 @@ public class TestContestant {
 //Collectors.toList() =>	Stream ko List me convert karta hai.
 //Collectors.collectingAndThen() =>	Collection banane ke baad us par extra operation perform karta hai.
 //Collections.shuffle() =>	List ke elements ko random order me arrange karta hai.
-//limit(2) =>	Sirf pehle 2 elements leta hai.
+//limit(2) => Random list me se 2 contestants leta hai.
 //forEach() =>	Har element par given action perform karta hai.
